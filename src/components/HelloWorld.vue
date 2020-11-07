@@ -11,8 +11,9 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'HelloWorld',
+
   props: {
-    msg: String,
+    msg:String,
   },
 
   setup(props) {
@@ -24,3 +25,4 @@ export default defineComponent({
   }
 });
 </script>
+
