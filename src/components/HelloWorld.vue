@@ -16,12 +16,8 @@ export default defineComponent({
     msg:String,
   },
 
-  setup(props) {
-    const test:string = "hola";
-
-    return {
-      message: `el mensaje es ${props.msg} ${test}`
-    }
+  setup() {
+    return {}
   }
 });
 </script>
